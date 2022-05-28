@@ -188,12 +188,8 @@ html {
 }
 
 body {
-  background-color: #2e3141;
-  background-image: linear-gradient(
-      to top,
-      rgba(46, 49, 65, 0.8),
-      rgba(46, 49, 65, 0.8)
-    ),
+  background-color: #f11075;
+  background-image: linear-gradient(to top, #bf095bcc, #f11075cc),
     url("../../images/bg.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
@@ -3568,7 +3564,6 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 1280px) {
   #banner {
     padding: 7em 0 8.25em 0;
-    background-color: #2e3141;
     background-image: linear-gradient(to top, #bf095bcc, #f11075cc),
       url("../../images/bg.jpg");
     background-size: auto, cover;
@@ -3673,12 +3668,7 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
-    background-color: #2e3141;
-    background-image: linear-gradient(
-        to top,
-        rgba(46, 49, 65, 0.8),
-        rgba(46, 49, 65, 0.8)
-      ),
+    background-image: linear-gradient(to top, #bf095bcc, #f11075cc),
       url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, 0% 30%;
