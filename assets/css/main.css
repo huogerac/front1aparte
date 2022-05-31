@@ -3554,7 +3554,7 @@ body.is-menu-visible #menu .inner {
   filter: blur(0);
   opacity: 1;
   font-family: Raleway, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.6em;
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 2;
@@ -4155,8 +4155,8 @@ body.is-preload #banner p {
   padding-left: 0;
 }
 
-#footer .inner .copyright li a {
-  color: inherit;
+#footer .inner .copyright li {
+  color: #fb95c3;
 }
 
 @media screen and (max-width: 1280px) {
