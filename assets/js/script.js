@@ -123,7 +123,6 @@ tecos_repos = [
 ];
 
 function showRepos() {
-  const body = document.querySelector("body");
   const features = document.querySelector(".features");
   let link = data.url;
   let stars = data.stargazers_count;
