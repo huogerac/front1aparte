@@ -35,7 +35,7 @@ for (i of lista){
         target="_blank"
         >${link}</a
         >
-        <p>Estrelas: ${data.stars}</p>
+        <p>⭐x${data.stars}</p>
     
         `    
         documento.appendChild(novoEl)
