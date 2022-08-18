@@ -52,7 +52,7 @@ function getAvatarAndStarsFrom(username, repository, callback) {
         "stars": response.stargazers_count,
         "avatar": response.owner.avatar_url,
         "username": response.owner.login,
-        "url": response.url,
+        "url": response.html_url,
       })
     })
   }
