@@ -122,7 +122,7 @@ tecos_repos = [
   "https://bit.ly/3lUllvf",
 ];
 
-function showRepos() {
+function showRepos(data) {
   const features = document.querySelector(".features");
   let link = data.url;
   let stars = data.stargazers_count;
